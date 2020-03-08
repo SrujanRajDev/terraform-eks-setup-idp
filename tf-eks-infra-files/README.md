@@ -4,6 +4,7 @@
 
 ## Terraform apply
 $> terraform init
+
 $> terraform apply
 
 
@@ -14,6 +15,7 @@ $> terraform output kubeconfig # save output in ~/.kube/config
 ## Configure config-map-auth-aws
 
 $> terraform output config-map-aws-auth # save output in config-map-aws-auth.yaml
+
 $> kubectl apply -f config-map-aws-auth.yaml
 
 
